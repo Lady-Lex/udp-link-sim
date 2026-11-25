@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build & packaging outputs
+build/
+dist/
+*.egg-info/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local temporary / runtime files
+*.tmp
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+udp_proxy.py
